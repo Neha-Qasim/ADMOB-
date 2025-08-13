@@ -28,7 +28,7 @@ Implement AdMob ads in a 5-screen Android app (excluding splash) with:
 ## 📷 Screenshots
 | Splash Screen | Login Screen | Screen 1 | Screen 2 | Screen 3 | Screen 4 | Screen 5 |
 |---------------|-------------|----------|----------|----------|----------|----------|
-| ![Splash](screenshots/splash.png) | ![Login](https://github.com/Neha-Qasim/ADMOB-/blob/603d3ac67e9c769b61e1bdb444de0ad925cdd649/Screenshot%202025-08-13%20211059.png) | ![Screen1](https://github.com/Neha-Qasim/ADMOB-/blob/06a31a2d6a71462657adf960c6f37304cfe511da/Screenshot%202025-08-13%20211141.png) | ![Screen2](screenshots/screen2.png) | ![Screen3](screenshots/screen3.png) | ![Screen4](screenshots/screen4.png) | ![Screen5](screenshots/screen5.png) |
+| ![Splash](https://github.com/Neha-Qasim/ADMOB-/blob/78cddf3184748127fa7bffdbfd9239ea258b3838/Screenshot%202025-08-13%20215918.png) | ![Login](https://github.com/Neha-Qasim/ADMOB-/blob/603d3ac67e9c769b61e1bdb444de0ad925cdd649/Screenshot%202025-08-13%20211059.png) | ![Screen1](https://github.com/Neha-Qasim/ADMOB-/blob/06a31a2d6a71462657adf960c6f37304cfe511da/Screenshot%202025-08-13%20211141.png) | ![Screen2](screenshots/screen2.png) | ![Screen3](screenshots/screen3.png) | ![Screen4](screenshots/screen4.png) | ![Screen5](screenshots/screen5.png) |
 
 > Place your screenshots in the `screenshots` folder.
 

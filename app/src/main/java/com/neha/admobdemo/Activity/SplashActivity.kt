@@ -1,23 +1,30 @@
 package com.neha.admobdemo.Activity
+
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.appopen.AppOpenAd
 import com.neha.admobdemo.MainActivity
+import com.neha.admobdemo.R
 
 class SplashScreen : AppCompatActivity() {
 
     private var appOpenAd: AppOpenAd? = null
     private var isAdShown = false
+    private val splashDelay = 2000L // Minimum splash display time
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash) // <-- Your splash layout
 
-        // Load ad before starting main activity
-        loadAppOpenAd()
+        // Delay to ensure splash is shown
+        Handler(Looper.getMainLooper()).postDelayed({
+            loadAppOpenAd()
+        }, splashDelay)
     }
 
     private fun loadAppOpenAd() {
@@ -34,7 +41,6 @@ class SplashScreen : AppCompatActivity() {
                 }
 
                 override fun onAdFailedToLoad(error: com.google.android.gms.ads.LoadAdError) {
-                    // If failed, just continue
                     goToMainActivity()
                 }
             }
@@ -46,7 +52,6 @@ class SplashScreen : AppCompatActivity() {
             appOpenAd?.show(this as Activity)
             isAdShown = true
 
-            // Delay moving to MainActivity until the ad is closed
             appOpenAd?.fullScreenContentCallback =
                 object : com.google.android.gms.ads.FullScreenContentCallback() {
                     override fun onAdDismissedFullScreenContent() {

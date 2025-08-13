@@ -25,6 +25,15 @@ Implement AdMob ads in a 5-screen Android app (excluding splash) with:
 - **Error handling** for ad loading
 - **Internet connection check** for ad display
 
+## 📷 Screenshots
+| Splash Screen | Login Screen | Screen 1 | Screen 2 | Screen 3 | Screen 4 | Screen 5 |
+|---------------|-------------|----------|----------|----------|----------|----------|
+| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Screen1](screenshots/screen1.png) | ![Screen2](screenshots/screen2.png) | ![Screen3](screenshots/screen3.png) | ![Screen4](screenshots/screen4.png) | ![Screen5](screenshots/screen5.png) |
+
+> Place your screenshots in the `screenshots` folder.
+
+---
+
 ---
 
 ## 🛠️ Tech Stack

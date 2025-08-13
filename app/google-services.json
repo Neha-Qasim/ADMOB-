@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779271616894",
+    "project_id": "admob-104bc",
+    "storage_bucket": "admob-104bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779271616894:android:67f85f915cd55e2e099b2f",
+        "android_client_info": {
+          "package_name": "com.neha.admobdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBueeAw0qanpo83-Qykb8ZdhPT8LzScqcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
